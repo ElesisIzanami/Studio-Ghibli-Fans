@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 15vw 70vw 15vw;
+    grid-template-rows: 50vh 50vh;
+}
+
+.box1{
+    grid-column: 2/3;
+    background-color: purple;
+}
+
+.box2{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    background-color: skyblue;
+}
