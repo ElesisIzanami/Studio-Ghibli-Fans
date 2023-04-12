@@ -5,7 +5,6 @@ import {posters4} from "./data/data.js";
 
 
 const portada = document.querySelector('.portada');
-const portada2 = document.querySelector('.portada2');
 const logoContainer = document.querySelector('.title-logo-container');
 const parrafoContainer = document.querySelector('.parrafo-container');
 const imagenesContainer1 = document.querySelector(".imagenes-container1");
